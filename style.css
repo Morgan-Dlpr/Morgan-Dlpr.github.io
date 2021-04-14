@@ -1,0 +1,442 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+/* Partie Menu */
+
+.menu {
+    width: auto;
+    background-color: #e78d0e;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding:10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-titre {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.block-menu {
+    padding: 10px 20px;
+    background-color:whitesmoke;
+    border-radius: 2em;
+}
+
+/* Partie Entete */
+
+.Rectangle-header-1 {
+    height: 25px;
+    opacity: 0.81;
+    background-color: #e3bc16;
+  }
+  
+  .Rectangle-header-2 {
+    height: 15px;
+    opacity: 0.81;
+    background-color: #fec24a;
+  }
+
+.entete {
+    height: 150px;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    background-color: #74b0f7;
+}
+
+.entete-titre {    
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+
+.entete-sous-titre {
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.introduction {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.page {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titre-partie {
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+}
+
+/* PARTIE MON OFFRE */
+
+.section-titre {
+    font-size: 40px;
+    font-weight: 900;
+    color: #231f20;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .grille-offre {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: space-around;
+  }
+  
+  .block-offre-image {
+    padding-top: 41px;
+    padding-bottom: 0px;
+    padding-left: 20%;
+    /*border-radius: 2em;*/
+  }
+  
+  .block-offre-description {
+    position: relative;
+    padding: 20px;
+    /*border-radius: 2em;*/
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+  
+  .titre-block-offre-description {
+    font-size: 24px;
+    font-weight: bold;
+    color: #231f20;
+    text-align: center;
+    display: block;
+    justify-content: left;
+  }
+  
+  .description-offre {
+    font-size: 16px;
+    font-weight: 300;
+    color: #231f20;
+    text-align: justify;
+    display: block;
+    justify-content: left;
+  }
+
+/* PARTIE CTA */
+
+.block-offre-footer{
+    text-align: right;
+    max-height: 50px;
+  }
+
+  .block-CTA {
+    font-size: 20px;
+    font-weight: 400px;
+    color: orangered;
+    padding: 0px 10px 0px 10px;
+    border-radius: 15px;
+    border: solid 4px orangered;
+    display: inline-block;
+  }
+  
+  .text-CTA {
+    text-align: center;
+    padding: 5px;
+    color: orangered;
+  }
+
+  .block-CTA:hover {
+    /* au survol du curseur */
+    background-color: orangered;
+  }
+
+  .text-CTA:hover {
+    /* au survol du curseur */
+    color: white;
+  }
+  /* ---------------------------------------- */
+
+
+
+
+/* PARTIE MES SERVICES */
+
+.colonnes-services {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.block-services {
+    flex-basis: 0;
+    flex-grow: 1;
+    padding:15px;
+    text-align: center;
+    transition: 300ms transform, 300ms background-color;
+    border-radius: 2em;
+}
+
+.block-services:hover {
+    /* au survol du curseur */
+    transform: translateY(-20px);
+    background-color: #74b0f7;
+  }
+
+.services-image {
+    height: 150px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+}
+
+.services-titre {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.services-description {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.block-service-footer{
+    text-align: right;
+    max-height: 50px;
+  }
+
+  .block-CTA-service {
+    font-size: 20px;
+    font-weight: 400px;
+    color: orangered;
+    padding: 0px 0px 0px 0px;
+    border-radius: 15px;
+    border: solid 2px orangered;
+  }
+  
+  .text-CTA-service {
+    text-align: center;
+    padding: 5px;
+    color: orangered;
+  }
+
+  .block-CTA-service:hover {
+    /* au survol du curseur */
+    background-color: orangered;
+  }
+
+  .text-CTA-service:hover {
+    /* au survol du curseur */
+    color: white;
+  }
+
+
+
+/* PARTIE AVIS CLIENTS */
+
+.avis {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.colonnes-avis {
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.block-avis {
+    position: relative;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.colonnes-avis .block-avis {
+    max-width: 30%;
+}
+
+.colonnes-avis-a-la-une {
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.avis-a-la-une {
+    display: flex;
+    text-align: left;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.image-avis-a-la-une {
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.contenu-avis-a-la-une {
+    flex-basis: 0;
+    flex-grow: 2;
+    padding-left: 20px;
+    padding-top: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100%;
+}
+
+.avis-a-la-une .date-block-avis {
+    margin-left: auto;
+}
+
+.avis-a-la-une .titre-block-avis {
+    color: black;
+    text-transform: capitalize;
+}
+
+.image-block-avis {
+    padding-bottom: 5px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    max-width: 50%;
+}
+
+.date-block-avis {
+    color: white;
+    margin-top: 0px;
+    height: auto;
+    margin: 5px;
+}
+
+.titre-block-avis {
+    color: black;
+    height: auto;
+    margin: 5px;
+}
+
+.chapo-block-avis {
+    color: black;
+    height: auto;
+    margin: 5px;
+}
+
+.grille {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.block {
+    background-color: cornflowerblue;
+    padding: 20px;
+    border-radius: 2em;
+}
+
+.block-gros {
+    grid-column: span 3;
+    border-radius: 2em;
+}
+
+/* PARTIE CONTACT */
+
+.titre-formulaire {
+    text-transform: capitalize;
+}
+
+
+.block-formulaire {
+    position: relative;
+    grid-column: span 2;
+    border-radius: 2em;
+    background-color: orangered;
+}
+
+.formulaire {
+    display: flex;
+    text-align: left;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.block-CTA-formulaire {
+    font-size: 20px;
+    font-weight: 400px;
+    color: black;
+    padding: 0px 10px 0px 10px;
+    border-radius: 15px;
+    border: solid 2px black;
+  }
+
+  .block-CTA-formulaire:hover {
+    /* au survol du curseur */
+    background-color: rgb(0, 255, 64);
+  }
+
+.block-coordonnee {
+    /*flex-basis: 0;
+    flex-grow: 2;*/
+    grid-column: span 1;
+    padding-left: 20px;
+    padding-top: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    font-size: 100%;
+}
+
+.titre-coordonnee {
+    text-align: center;
+}
+
+.chapo-coordonnee {
+    color: black;
+    height: auto;
+    margin: 5px;
+}
+
+
+@media screen and (max-width: 715px) {
+    .colonnes-services{
+      display: initial;
+}
+
+@media screen and (max-width: 715px) {
+    .grille{
+    display: initial;
+}
+
